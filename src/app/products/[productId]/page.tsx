@@ -5,5 +5,5 @@ export default async function ProductsDetails({
 }) {
   const { productId } = await params;
 
-  return <h1>Product Details Page {productId}</h1>;
+  return <h1>Product Details Page {productId}</h1>
 }
